@@ -2,15 +2,11 @@
 1.Project Name: Data Science 
 
 • Project Description:
-Problem statement: Create a classification model to predict whether price range of
-mobile based on certain specifications
-Context: An entrepreneur has started his own mobile company. He wants to give
-tough fight to big companies like Apple, Samsung etc.
-He does not know how to estimate price of mobiles his company creates. In this
-competitive mobile phone market, one cannot simply assume things. To solve this
-problem, he collects sales data of mobile phones of various companies.
-He wants to find out some relation between features of a mobile phone (e.g., RAM,
-Internal Memory etc) and its selling price. But he is not so good at Machine Learning.
+Problem statement: Create a classification model to predict whether price range of mobile based on certain specifications
+
+Context: An entrepreneur has started his own mobile company. He wants to give tough fight to big companies like Apple, Samsung etc.
+He does not know how to estimate price of mobiles his company creates. In this competitive mobile phone market, one cannot simply assume things. To solve this problem, he collects sales data of mobile phones of various companies. He wants to find out some relation between features of a mobile phone (e.g., RAM,Internal Memory etc) and its selling price. But he is not so good at Machine Learning.
+
 So, he needs your help to solve this problem.
 In this problem you do not have to predict actual price but a price range indicating
 how high the price is
@@ -18,6 +14,7 @@ how high the price is
 Dataset: mobile_price_range_data.csv
 
 Details of features:
+
 The columns are described as follows:
 Dataset as 21 features and 2000 entries. The meanings of the features are given
 below.
@@ -45,13 +42,21 @@ below.
 2(high cost) and 3(very high cost).
 
 Steps to consider:
+
 1)Remove handle null values (if any).
+
 2)Split data into training and test data.
-3)Apply the following models on the training dataset and generate the predicted value for
-the test dataset
+
+3)Apply the following models on the training dataset and generate the predicted value forthe test dataset
+
 a) Logistic Regression
+
 b) KNN Classification
+
 c) SVM Classifier with linear and rbf kernel
+
 4)Predict the price range for test data
+
 5)Compute Confusion matrix and classification report for each of these models.
+
 6)Report the model with the best accuracy.
