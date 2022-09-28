@@ -1,6 +1,6 @@
 ## Data_Science
 
-#1.Project Name: Mobile price range prediction
+##1.Project Name: Mobile price range prediction
 
 • Project Description:
 
@@ -64,7 +64,7 @@ c) SVM Classifier with linear and rbf kernel
 6)Report the model with the best accuracy.
 
 
-#2. Project Name: 
+##2. Project Name: 
 
 • Project Description:
 
